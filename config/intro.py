@@ -1,0 +1,100 @@
+# Define Text colors
+v = '\u001b[92m'  # Green
+g = '\033[93m'  # Yellow
+r = '\033[91m'  # Red
+b = '\033[34m'  # BLUE
+reset = '\033[0m'  # RESET
+
+
+def show_name():
+    print(v, "\t\t\t\t\t\t\t\t    _    ___   ____            _           _    \n",
+          g, "\t\t\t\t\t\t\t\t   / \  |_ _| |  _ \ _ __ ___ (_) ___  ___| |_  \n",
+          r, "\t\t\t\t\t\t\t\t  / _ \  | |  | |_) | '__/ _ \| |/ _ \/ __| __| \n",
+          b, "\t\t\t\t\t\t\t\t / ___ \ | |  |  __/| | | (_) | |  __/ (__| |_  \n",
+          v, "\t\t\t\t\t\t\t\t/_/   \_\___| |_|   |_|  \___// |\___|\___|\__| \n",
+          reset, "\t\t\t\t\t\t\t\t                             |__/                ")
+
+    print(v,
+          "  __  __                 _  _     ____                      _             _    _                  _ _   _                   \n",
+          g,
+          "|  \/  | __ _ _______  | || |   / ___|  ___  __ _ _ __ ___| |__         / \  | | __ _  ___  _ __(_) |_| |__  _ __ ___  ___ \n",
+          r,
+          "| |\/| |/ _` |_  / _ \ | || |_  \___ \ / _ \/ _` | '__/ __| '_ \       / _ \ | |/ _` |/ _ \| '__| | __| '_ \| '_ ` _ \/ __|\n",
+          b,
+          "| |  | | (_| |/ /  __/ |__   _|  ___) |  __/ (_| | | | (__| | | |     / ___ \| | (_| | (_) | |  | | |_| | | | | | | | \__ \\\n",
+          reset,
+          "|_|  |_|\__,_/___\___|    |_|   |____/ \___|\__,_|_|  \___|_| |_|    /_/   \_\_|\__, |\___/|_|  |_|\__|_| |_|_| |_| |_|___/\n",
+          "                                                                                   |___/                                      ")
+
+
+def show_logo():
+    print("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNNXXXXXXXNNWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMMMMMMMMMMMWNKOxoc:;''........',;:loxOXNMMMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMMMMMMMWKko:'.  ..,;:ccllllllc::,'.. ..,cdOXWMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMMMMNOo;. ..;ldk0XNNWWWWWWNNNNNNNXKOxoc,. ..:d0WMMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMW0l'. .:dOXWWWWWWWWWWWWWWWNNNNNNNNNNNNX0xl,. .;dKWMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMNk;. .ckXWWWWWWWWWWWWWXkdoccldOXNNNNNNNNNNNXXOo;. .cOWMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMNx,  ,dKWMMMWWWWWWWWWWNO;       .c0NNNNNNNNNNNXXXKkc. .:OWMMMMMMMM\n"
+          "MMMMMMMMMMMMWO;  ,xXWMMMMMMMWWWWWWWWK;          lXNNNNNNNNNXNXXXNXOl. .cKWMMMMMM\n"
+          "MMMMMMMMMMMNo. .dXWMMMMMMMMMMMWWWWWWX:         .oXNNNNNNNNNNNXXXXXXXO:. 'kWMMMMM\n"
+          "MMMMMMMMMMK:  ;0WMMMMMMMMMMMMMWWWWWWW0l..    .'dKNNNNNNNNNNNNXXXXXXX0d'  .dWMMMM\n"
+          "MMMMMMMMM0;  cXWMMMMMMMMMMMMMWWWWWWWWWNKOkddxOXNNNNNNNNNNNNXXXXXKko;.  .:dKWMMMM\n"
+          "MMMMMMMMK;  lXWWWMMMMMMMMMMMWWWWWWWWWWWWWWWWWNNNNNNNNNNNNNNNKOd:'. .;oOXWMMMMMMM\n"
+          "MMMMMMMNl  :XWWWWWMMMMMMMMWWWWWWWWWWWWWWWWWWNNNNNNNNNNNNX0xc,. .,lkKWMMMMMMMMMMM\n"
+          "MMMMMMMk. 'OWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNNNNNNNNNKkl;. .'cx0NMMMMMMMMMMMMMMM\n"
+          "MMMMMMX:  oNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNNNNNNXOd:.. .;oONWMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMO' .kWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNNNNX0xc,. .,lkXWMMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMx. ,0WWWWWWWWWWWWWWWWWWWWWWWWWWWWNNNKkl;. .'cxKWMMMMMMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMd. ;KWWWWWWWWWWWWWWWWWWWWWWWWWWWNKOo'   .:ONWMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMx. ;KWWWWWWWWWWWWWWWWWWWWWWWWWNNNXX0xc'. .;lkXWMMMMMMMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMO. 'OWWWWWWWWWWWWWWWWWWWWWWWNNNNNNNNNNXOo:.  .:dONMMMMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMK; .dNNNNWWWWWWWWWWWWWWWWNNNNNNNNNNNNNNNNXKkl;. .'cx0NMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMWd. ;0NNNNNNNNNNNWWNNNNNNNNNNNNNNNNNNNNNNNNNNX0xc,. .,lkKWMMMMMMMMMMMMMMMM\n"
+          "MMMMMMMK; .lXNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXXXKOd:'. .;oOXWMMMMMMMMMMMM\n"
+          "MMMMMMMMO' .dXNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXXXXXXXXXKko;. ..:d0NMMMMMMMMM\n"
+          "MMMMMMMMWx. .dXNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXXXXXXXXXXXXXX0xl,. .'cxKWMMMMM\n"
+          "MMMMMMMMMWk. .oKNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXXXXXXXXXXXXXXXXXXXXKOd:.  .xWMMMM\n"
+          "MMMMMMMMMMWO;  ;OXNNNNNNNNNNNNNNNNNNNNNNNNNNNXXXXXXXXXXXXXXXXXXXXXXXKd. .cKMMMMM\n"
+          "MMMMMMMMMMMMXo. .l0XNNNNNNNNNNNNNNNNNNNNNNNXXXXXXXXXXXXXXXXXXXXXXXXk:. 'xNMMMMMM\n"
+          "MMMMMMMMMMMMMW0:. .lOXNNNNNNNNNNNNNNXXXXXXXXXXXXXXXXXXXXXXXXXXXXKk:. .oKMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMWOc. .:d0XXNNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXOo,. .lKWMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMW0o'  .:dOKXXXXXXXXXXXXXXXXXXXXXXXXXXXXNXKko;. .;dXWMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMMMNOl,. .,cok0KXXXXXXXXXXXXXXXXXXXXKOxo:'. .;o0WMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMMMMMMN0dc,. ..';clodxkkkkkkkxxdoc:;'. ..;lxKWMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMMMMMMMMMMNKkdl:,.................',:lxOXWMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWXK0OkxxxxxxxkkO0XNWMMMMMMMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n\n")
+
+
+def show_logo_small():
+    print("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMNXOkdooooooodxOXNMMMMMMMMMMM\n"
+          "MMMMMMMMMMWKxlccloodxxxxxdolccclxKWMMMMMMM\n"
+          "MMMMMMMMXxc:lx0NWWWN0Okk0NNNNKOdc:cxXMMMMM\n"
+          "MMMMMMNx;:xXWMWWWWNd.   .oXNNNNNX0d;;xNMMM\n"
+          "MMMMM0:,xNMMMMWWWWXo.   .lXNNNNNXXX0l.:KMM\n"
+          "MMMW0;;0WMMMMMWWWWWXOxddOXNNNNNXKOoc::oKMM\n"
+          "MMMK;,0WWWMMWWWWWWWWWWWWNNNNX0dl:clkKWMMMM\n"
+          "MMWd'dWWWWWWWWWWWWWWWWNNNKklc:lx0NMMMMMMMM\n"
+          "MMN:'OWWWWWWWWWWWWWWXKOoc:cdOXWMMMMMMMMMMM\n"
+          "MMX:,0WWWWWWWWWWWNNNKOd,.;xKWMMMMMMMMMMMMM\n"
+          "MMWl'xNWWWWWWWWWNNNNNNNXOdc:coOXWMMMMMMMMM\n"
+          "MMMO,:KNNNNNNNNNNNNNNNNNNNXKkoc:cd0NMMMMMM\n"
+          "MMMWd'lKNNNNNNNNNNNNNNNNNNXXXXX0xl:clxKWMM\n"
+          "MMMMNd,c0NNNNNNNNNNNNNNNNXXXXXXXXXKOc.;0MM\n"
+          "MMMMMWO:;o0XNNNNNNNNXXXXXXXXXXXXXX0o;:OWMM\n"
+          "MMMMMMMNk:;lxKXXXXXXXXXXXXXXXXXKkl;:kNMMMM\n"
+          "MMMMMMMMMN0oc:codk0KKKKKKK0kdoc:co0WMMMMMM\n"
+          "MMMMMMMMMMMMWKkdolcllllllcclldkKWMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMWWNXXXXXNWWMMMMMMMMMMMMMM\n"
+          "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n\n")
+
+
+def show_authors():
+    print(b, "Authors: Maria Chessa & Lello Molinario\n"
+             "Supervisor: Prof. Giorgio Fumera\n"
+             "Year: 2023\n\n", reset)
