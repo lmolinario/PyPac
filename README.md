@@ -118,6 +118,6 @@ That's exactly what is computed by the mentioned method, in charge of determinin
 
 ## Conclusions
 
-- Among all the search strategies, the informed A* search ensures Pacman to find the best path to reach all the ghosts distributed across the maze and leave the same: known to be optimal and optimally efficient by nature, it provides the best trade-off between the path cost and the amount of generated nodes during the search process, two major performance evaluators for the effectiveness and the efficiency of search algorithms
+- Among all the search strategies, the informed A* search ensures Pacman to find the best path to reach all the ghosts distributed across the maze and leave the same: known to be optimal and optimally efficient by nature, it provides the best trade-off between the path cost and the amount of expanded nodes during the search process, two major performance evaluators for the effectiveness and the efficiency of search algorithms
 - Artificial Intelligence (AI) finds its essence in human intelligence, moved by the objective of building machines that behave intelligently and autonomously solve real-world and complex tasks. Graph search is one expression of AI that reflects how human brain could be processing context information to solve a search problem but providing increased efficiency, faster speed, and complexity reduction
 
